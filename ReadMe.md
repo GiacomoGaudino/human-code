@@ -10,28 +10,45 @@
  - scelgo la pizzeria dalla quale ordinare
   - prendo lo smartphone
   - cerco su google
-  SE la pizzeria è vicina vado a prenderla io
-  ALTRIMENTI ordino e me la faccio consegnare a casa
+  - SE la pizzeria è vicina: 
+   - vado a prenderla io
+  - ALTRIMENTI:
+   - ordino e me la faccio consegnare a casa
   - trovata la pizzeria cerco il listino
    - ho voglia di una classica prosciutto e funghi
-   SE non fanno prosciutto e funghi trovo un'altra pizzeria
-   ALTRIMENTI se nessuna pizzeria fa la prosciutto e funghi, scelgo una margherita
+   - SE la pizzeria scelta non fa prosciutto e funghi: 
+    - trovo un'altra pizzeria che la faccia
+   - ALTRIMENTI: 
+    - scelgo una margherita
    - prendo il numero di telefono e chiamo
-   SE la pizzeria è vicina vado a prenderla
-   ALTRIMENTI aspetto il corriere che me la porta
+   - SE la pizzeria è vicina:
+    - vado a prenderla
+   - ALTRIMENTI:
+    - aspetto il corriere che me la porti
    - pago la pizza
+   - SE funziona il bancomat
+    - pago con la carta
+   - ALTRIMENTI:
+    - pago in contanti
 - Mangio la pizza
- - sono seduto a tavola
+ - apparecchio la tavola
+ - mi siedo
  - apro il cartone della pizza e incomincio a mangiare
- SE non riesco a finirla, metto il rimanente nel frigorifero
- ALTRIMENTI finita la pizza butto il cartone
+ - SE non riesco a finirla:
+  - metto il rimanente nel frigorifero
+ - ALTRIMENTI:
+  - finita la pizza butto il cartone
 - Pulisco tutto e vado a dormire
  - finito di cenare, pulisco il tavolo
- SE ho la lavastoviglie, dentro ci metto piatto, posate e bicchiere
- ALTRIMENTI mi tocca lavarle a mano nel lavandino
+ - SE ho la lavastoviglie:
+  - dentro ci metto piatto, posate e bicchiere
+ - ALTRIMENTI:
+  - mi tocca lavarle a mano nel lavandino
  - sono molto stanco dalla giornata di lavoro, ma sazio, quindi vado a dormire
  - mi metto il pigiama
- - mi corico sul letto
- SE ho sonno mi addormento subito
- ALTRIMENTI mi guardo qualcosa in tv per conciliarmi il sonno
+ - mi sdraio sul letto
+ - SE ho sonno:
+  - mi addormento subito
+ - ALTRIMENTI:
+  - mi guardo qualcosa in tv per conciliare il sonno
  
